@@ -7,16 +7,60 @@
 </head>
 <body>
   <header><h1>News Pulse 24</h1></header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="international.html">🌍 International</a>
+    <a href="sports.html">⚽ Sports</a>
+    <a href="national.html">🇮🇳 National</a>
+    <a href="thought.html">💡 Thought</a>
+  </nav>
+
+  <!-- Breaking News Ticker -->
   <div class="ticker"><span id="ticker"></span></div>
 
   <main>
-    <section><h2>🌍 International</h2><ul id="international"></ul></section>
-    <section><h2>⚽ Sports</h2><ul id="sports"></ul></section>
-    <section><h2>🇮🇳 National</h2><ul id="national"></ul></section>
-    <section><h2>💡 Thought of the Day</h2><ul id="thought"></ul></section>
+    <!-- Featured Content Grid -->
+    <section class="featured">
+      <article>
+        <h2>International Highlight</h2>
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Global Summit">
+        <p>Global leaders meet to discuss climate change and sustainable development goals.</p>
+      </article>
+
+      <article>
+        <h2>Sports Highlight</h2>
+        <img src="https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf" alt="Football">
+        <p>Exciting matches in the World Cup qualifiers keep fans on the edge of their seats.</p>
+      </article>
+
+      <article>
+        <h2>National Highlight</h2>
+        <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Economy">
+        <p>Economic growth report shows steady progress across key industries.</p>
+      </article>
+
+      <article>
+        <h2>Thought of the Day</h2>
+        <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe" alt="Inspiration">
+        <p>"In the middle of every difficulty lies opportunity." – Albert Einstein</p>
+      </article>
+    </section>
+
+    <!-- Latest Headlines -->
+    <section class="headlines">
+      <h2>📰 Latest Headlines</h2>
+      <ul id="international"></ul>
+      <ul id="sports"></ul>
+      <ul id="national"></ul>
+      <ul id="thought"></ul>
+    </section>
   </main>
 
-  <footer>News Pulse 24 | Designed by <span>Anvay J</span></footer>
+  <footer>
+    News Pulse 24 | Contact Us | Privacy Policy | Designed by <span>Anvay J</span>
+  </footer>
+
   <script src="news.js"></script>
 </body>
-</html>s
+</html>

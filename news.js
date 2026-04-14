@@ -16,7 +16,7 @@ loadFeed("https://www.espn.com/espn/rss/news", "sports");
 loadFeed("https://feeds.bbci.co.uk/news/rss.xml", "national");
 loadFeed("https://www.brainyquote.com/link/quotebr.rss", "thought");
 
-// Simple ticker
+// Ticker headlines
 async function loadTicker() {
   const res = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://feeds.bbci.co.uk/news/rss.xml");
   const data = await res.json();
